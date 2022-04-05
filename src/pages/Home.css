@@ -4,7 +4,7 @@
 
 .topBanner {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding-top: 20px;
 }
 
@@ -33,7 +33,7 @@
 
 .sceneImg {
   width: 100vw;
-  position:relative;
+  position: relative;
   top:0px;
 }
 
@@ -76,7 +76,7 @@
   padding-left: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: flex-start;
   gap:2px;
   row-gap: 20px;
   position: relative;
@@ -87,7 +87,7 @@
   padding-left: 3vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: flex-start;
   gap:2px;
   row-gap: 20px;
   position: relative;
