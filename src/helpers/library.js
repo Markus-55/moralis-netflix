@@ -3,6 +3,7 @@ import tita from "../images/tit.png";
 import movieLogo from "../images/movieLogo.png";
 import spidey from "../images/spidey.png";
 import jumanji from "../images/jumanji.png";
+import drLogo from "../images/dragonLogo.png";
 import wolf from "../images/wolf.png";
 import mrs from "../images/mrs.png";
 import hob from "../images/hob.png";
@@ -54,15 +55,16 @@ export const movies = [
     Duration: "2h 13min",
   },
   {
-    Movie: "",
+    Movie: "https://ipfs.moralis.io:2053/ipfs/QmeTpxeQ6t1SQaTGN6rNvkLw1ygviTHwTxx9NkmxtFvMqx/media/0",
     Thumbnail: jumanji,
     Scene: jumanji,
-    Name: "Jumanji",
-    Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
-    Genre: "",
+    Logo: drLogo,
+    Name: "Markus-Dragons",
+    Description: "Markus-Dragons: My ERC-721 project is an NFT game where you can collect, create, breed and buy/sell your non-fungible dragon tokens.",
+    Genre: "Action, Fantasy",
     Actors: "",
-    Year: "",
-    Duration: "",
+    Year: "2021",
+    Duration: "18sec",
   },
   {
     Movie: "https://ipfs.moralis.io:2053/ipfs/QmWWnyCZwh8RVnamjeLhGmpYM2C3oDr3FzF7zgv5ur24z5/media/0",
@@ -102,7 +104,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: mrs,
-    Scene: "",
+    Scene: mrs,
     Logo: "",
     Name: "Mr and Mrs Smith",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -114,7 +116,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: hob,
-    Scene: "",
+    Scene: hob,
     Logo: "",
     Name: "Hobbit",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -126,7 +128,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: shrek,
-    Scene: "",
+    Scene: shrek,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -138,7 +140,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: reven,
-    Scene: "",
+    Scene: reven,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -150,7 +152,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: imit,
-    Scene: "",
+    Scene: imit,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -162,7 +164,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: topgu,
-    Scene: "",
+    Scene: topgu,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -174,7 +176,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: lucy,
-    Scene: "",
+    Scene: lucy,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -186,7 +188,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: bayw,
-    Scene: "",
+    Scene: bayw,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -198,7 +200,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: tomb,
-    Scene: "",
+    Scene: tomb,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -210,7 +212,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: amaz,
-    Scene: "",
+    Scene: amaz,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -222,7 +224,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: bigs,
-    Scene: "",
+    Scene: bigs,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -234,7 +236,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: secona,
-    Scene: "",
+    Scene: secona,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -246,7 +248,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: ted,
-    Scene: "",
+    Scene: ted,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
@@ -258,7 +260,7 @@ export const movies = [
   {
     Movie: "",
     Thumbnail: amerp,
-    Scene: "",
+    Scene: amerp,
     Logo: "",
     Name: "",
     Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo porro, laudantium fugit magnam ducimus reiciendis in. Officia aspernatur, laboriosam facere eos atque saepe animi expedita quaerat! Fugiat soluta quos eum?",
